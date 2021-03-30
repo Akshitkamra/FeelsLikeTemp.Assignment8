@@ -7,7 +7,7 @@ public class TestTemperature {
         for (int i = 0; i < days.length; i++){
             double tempFeels = temp[i] - (temp[i] * speed[i])/100;
             JOptionPane.showMessageDialog(null,
-                    "The temperature feels like on " + days[i] + " is " + String.format("%.2f", tempFeels));
+                    "Feels like temperature on " + days[i] + " : " + String.format("%.2f", tempFeels));
         }
     }
 }
